@@ -1,0 +1,46 @@
+html,
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 2em auto;
+}
+
+.equation {
+  text-align: center;
+  font-size: 3em;
+  font-family: serif;
+}
+
+.equation span {
+  transition: all 0.7s;
+}
+
+.shape {
+  background-color: white;
+  border: 0.4em solid black;
+  margin: 2em auto;
+  transition: all 1.5s;
+}
+
+#circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.a {
+  color: #e14747;
+  width: 0;
+}
+
+.b {
+  color: #1d63af;
+}
+
+.hidden {
+  opacity: 0;
+}
